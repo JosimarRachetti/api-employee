@@ -2,16 +2,10 @@ from flask import Flask
 from flask_restful import Api
 
 import unittest
-from controller.employee import Employee
-from main import app
-
-from services.schemas import LeaderSchema, EmployeeSchema, PositionSchema
-
-from controller.leader import Leader
-from model.leader import LeaderDB
 
 from controller.employee import Employee
-from model.employee import EmployeeDB
+from services.schemas import EmployeeSchema
+from controller.employee import Employee
 
 from test.mocks import MockEmployeeDB, mock_employee
 from test.mocks import MockPositionDB, MockConnection

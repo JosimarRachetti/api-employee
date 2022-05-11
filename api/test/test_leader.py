@@ -1,5 +1,3 @@
-from re import M
-from unittest.mock import Mock
 from flask import Flask
 from flask_restful import Api
 

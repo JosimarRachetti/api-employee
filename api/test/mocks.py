@@ -1,4 +1,3 @@
-from model import employee
 from utils.exceptions import BadRequestException
 
 from database.database import Employee, Position, Leader
